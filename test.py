@@ -29,7 +29,6 @@ def ner(s):
     # ignore [CLS] and [SEP]
     input_ids=input_ids[1:-1]
     pred=pred[0][1:-1]
-    print(pred)
     start=None
     entity=''
     ner_result=[]
